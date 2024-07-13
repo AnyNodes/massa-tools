@@ -1,0 +1,24 @@
+{
+  "name": "massa-tools",
+  "version": "1.0.0",
+  "main": "src/autoBuyRolls.js",
+  "author": "AnyNodes",
+  "license": "MIT",
+  "scripts": {
+    "start": "pm2 start ./src/autoBuyRolls.js --name autoBuyRolls",
+    "stop": "pm2 stop autoBuyRolls",
+    "restart": "pm2 restart autoBuyRolls",
+    "logs": "pm2 logs autoBuyRolls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnyNodes/massa-tools.git"
+  },
+  "dependencies": {
+    "@massalabs/massa-web3": "^4.0.3",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "node-cron": "^3.0.3",
+    "winston": "^3.13.1"
+  }
+}
