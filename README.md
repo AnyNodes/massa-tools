@@ -1,3 +1,5 @@
+![CI/CD](https://github.com/AnyNodes/massa-tools/actions/workflows/cicd.yml/badge.svg)
+
 # Massa-tools
 
 Massa-tools is a Node.js script set designed to automate the process of operation on the Massa blockchain network. The first feature autoBuyRolls is checking account balances and buying rolls.
